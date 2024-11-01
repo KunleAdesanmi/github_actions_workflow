@@ -5,7 +5,7 @@ on:
   pull_request:
     branches: [main]
 jobs:
-  testing_github::
+  testing_github:
     runs-on: ubuntu-latest
     steps:
       - name: Hello World
